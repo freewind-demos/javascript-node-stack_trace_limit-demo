@@ -1,8 +1,6 @@
 {
   "scripts": {
-    "demo": "node hello.js"
-  },
-  "dependencies": {
-    "lodash": "^4.17.10"
+    "demo1": "node hello.js",
+    "demo2": "node --stack_trace_limit=3 hello.js"
   }
 }
